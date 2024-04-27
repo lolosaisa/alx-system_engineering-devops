@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/usrdevsaisaash
 # install load balancer
 
 
@@ -34,11 +34,11 @@ defaults
   timeout server 15s
   timeout http-request 10s
 
-frontend clickviral-tech-frontend
+frontend devsaisa-tech-frontend
     bind *:80
-    default_backend clickviral-tech-backend
+    default_backend devsaisa-tech-backend
 
-backend clickviral-tech-backend
+backend devsaisa-tech-backend
     balance roundrobin
     server 471467-web-01 54.90.6.169 check
     server 471467-web-02 52.207.17.254 check
