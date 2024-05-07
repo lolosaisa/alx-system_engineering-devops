@@ -22,4 +22,3 @@ def top_ten(subreddit):
             print(children[i].get('data').get('title'))
     except Exception:
         print('None')
-        
